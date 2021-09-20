@@ -1,0 +1,86 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 17,
+        "name": "ingreso exitoso",
+        "description": "",
+        "id": "registro-de-usuarios;ingreso-exitoso;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21577697500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que ingreso a la pagina de falabella para logearme",
+            "match": {
+              "location": "InicioSesionStepdefinition.que_ingreso_a_la_pagina_de_falabella_para_logearme()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4681249000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "ingreso mis credenciales correctamente mariasalas16@gmail.com Camila2021*",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mariasalas16@gmail.com",
+                  "offset": 39
+                },
+                {
+                  "val": "Camila2021*",
+                  "offset": 62
+                }
+              ],
+              "location": "InicioSesionStepdefinition.ingreso_mis_credenciales_correctamente(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1714091800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "deberia ver el home de la pagina",
+            "match": {
+              "location": "InicioSesionStepdefinition.deberia_ver_el_home_de_la_pagina()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Registro"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Registro de usuarios",
+    "description": "  YO COMO  una persona natural\n  QUIERO ingresar mis credenciales en la pagina de falabella\n  PARA realizar operaciones con mi cuenta",
+    "id": "registro-de-usuarios",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/inicio_sesion.feature",
+    "tags": [
+      {
+        "name": "@Registro",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

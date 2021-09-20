@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Registro de usuarios" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-20T00:21:17" hostname="DESKTOP-6HRUIQS" time="34.897">
+  <properties/>
+  <testcase name="ingreso exitoso" classname="Registro de usuarios" time="34.897"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[sep 19, 2021 7:21:18 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 26900
+Only local connections are allowed.
+[1632097284.029][WARNING]: Timed out connecting to Chrome, retrying...
+sep 19, 2021 7:21:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: ingreso exitoso
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

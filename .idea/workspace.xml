@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbc21a6e-1a37-41e4-bfd9-3ecd3d92e43e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yKfMn4k7nXkISOAsxenbuJipBo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Camila\Documents\AutomatizacionExito" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.InicioSesion">
+    <configuration name="Scenario: Agregar producto" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/agregar_al_carrito.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="AutomatizacionExito.test" />
+      <option name="NAME_FILTER" value="^Agregar producto$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Agregar producto$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Agregar producto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: ingreso exitoso" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/inicio_sesion.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="AutomatizacionExito.test" />
+      <option name="NAME_FILTER" value="^ingreso exitoso$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^ingreso exitoso$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: ingreso exitoso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: inicio de sesion" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/inicio_sesion.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="AutomatizacionExito.test" />
+      <option name="NAME_FILTER" value="^inicio de sesion$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^inicio de sesion$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: inicio de sesion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgregarAlCarrito" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;runners.AgregarAlCarrito&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="InicioSesion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;runners.InicioSesion&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.InicioSesion" />
+        <item itemvalue="Cucumber java.Scenario: ingreso exitoso" />
+        <item itemvalue="Cucumber java.Scenario: inicio de sesion" />
+        <item itemvalue="Gradle.AgregarAlCarrito" />
+        <item itemvalue="Cucumber java.Scenario: Agregar producto" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbc21a6e-1a37-41e4-bfd9-3ecd3d92e43e" name="Default Changelist" comment="" />
+      <created>1632005154916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632005154916</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="400" y="38" key="#Scenario:_Registrar_usuario" timestamp="1632007876563">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="400" y="38" key="#Scenario:_Registrar_usuario/0.0.1366.736/-1024.238.1024.738@0.0.1366.736" timestamp="1632007876563" />
+    <state width="1323" height="226" key="GridCell.Tab.0.bottom" timestamp="1632097643681">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.0.bottom/0.0.1366.736/-1024.238.1024.738@0.0.1366.736" timestamp="1632097643681" />
+    <state width="1323" height="226" key="GridCell.Tab.0.center" timestamp="1632097643680">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.0.center/0.0.1366.736/-1024.238.1024.738@0.0.1366.736" timestamp="1632097643680" />
+    <state width="1323" height="226" key="GridCell.Tab.0.left" timestamp="1632097643680">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.0.left/0.0.1366.736/-1024.238.1024.738@0.0.1366.736" timestamp="1632097643680" />
+    <state width="1323" height="226" key="GridCell.Tab.0.right" timestamp="1632097643680">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.0.right/0.0.1366.736/-1024.238.1024.738@0.0.1366.736" timestamp="1632097643680" />
+    <state width="1323" height="226" key="GridCell.Tab.1.bottom" timestamp="1632097643681">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.1.bottom/0.0.1366.736/-1024.238.1024.738@0.0.1366.736" timestamp="1632097643681" />
+    <state width="1323" height="226" key="GridCell.Tab.1.center" timestamp="1632097643681">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.1.center/0.0.1366.736/-1024.238.1024.738@0.0.1366.736" timestamp="1632097643681" />
+    <state width="1323" height="226" key="GridCell.Tab.1.left" timestamp="1632097643681">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.1.left/0.0.1366.736/-1024.238.1024.738@0.0.1366.736" timestamp="1632097643681" />
+    <state width="1323" height="226" key="GridCell.Tab.1.right" timestamp="1632097643681">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.1.right/0.0.1366.736/-1024.238.1024.738@0.0.1366.736" timestamp="1632097643681" />
+  </component>
+</project>
