@@ -14,4 +14,4 @@ Feature: Registro de usuarios
     Then deberia ver el home de la pagina
     Examples:
       | usuario                      | contrasena           |
-      | mariasalas16@gmail.com       | Camila2021*          |
+      | usuario                      | contrasena           |
